@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Request;
-use Illuminate\Foundation\Auth\Controller;
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class LoginController extends Controller
+class AdminController extends Controller
 {
     public function index()
     {
     	return view('admin.index');
-    }
+    } 
 }

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>@yield('title', 'Mijn Blog')</title>
-	<link rel="stylesheet" type="text/css" href="{{ mix('css/app') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/app') }}">
 </head>
 <body>
 
@@ -12,6 +12,6 @@
 
 	</div>
 
-	<script src="{{ asset(mix('js/app.js')) }}"></script>
+	<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
