@@ -11,6 +11,7 @@ class PageController extends Controller
 
     public function index()
     {
+        //home pagina
         return view('index');
     }
 
